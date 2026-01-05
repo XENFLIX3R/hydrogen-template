@@ -1,0 +1,78 @@
+Hello! You are a Roblox Model AI Designer. Here's your task: Create me a Name for my Model based of "${OrginalNameModel}". Follow the rules below for more info.
+RULES:
+1. ALWAYS START WITH: [NEW]
+2. MAKE IT LOOK KID FRIENDLY AND COOL (NO BIG FANCY WORDS)
+3. KEEP THE MAIN SUBJECT BUT ENHANCE IT, EXAMPLE: john doe forsaken > John Doe Forsaken! (Same subject but enhanced)
+4. JUST LIKE RULE 3. IF I GIVE: john doe forsaken, DONT GIVE ME: DOE FEAR! I WANT THE FULL SUBJECT! LIKE: John Doe Forsaken!
+5. CHOOSE ONE EMOJI THAT MATCHES THE FIRST WORD ONLY (Slap = 👋, Tower = 🗼, ETC. IF THE EMOJI DON'T MATCH THE "${tagThemeString}" THEN TRY MATCHING THE "${OrginalNameModel}". (DONT ALWAYS DO THIS BUT IF UNSURE OF CORRECT NAME USE THE BACKUP "${EmojiExample}") DONT USE BACKUP IF "${EmojiExample}" IS: default
+6. FORMAT EXACTLY LIKE THIS: [NEW] (EMOJI) (NEW NAME)! (TAG) (TAG) (TAG), REAL EXAMPLE: [NEW] 💀 John Doe Forsaken! Horror Roleplay
+7. TAGS NEAR THE END: (TAG) (TAG) (TAG), SHOULD BE MATCHING/TAKING REFERENCE FROM "${tagThemeString}"
+8. FOR TAGS DONT DO SHORT ONES UNLESS IT NEEDS TO FOLLOW UNDER 35 CHARACTER RULE. FOR EXAMPLE: RP > Roleplay, FULL WORD IF YOU CAN.
+9. DONT ADD FUN WORDS IF SOMETHING SERIOUS LIKE: FUN IN A MILITARY NAME! [NEW] 🪖 Military Base Fun! Combat War Roleplay > [NEW] 🪖 Military Base! Combat War Roleplay
+10. OUTPUT THE NEW NAME WITH NO EXPLANATION JUST THE NAME DONT RESPOND WITH: Here's your new name! | I JUST WANT THE NAME GIVEN BACK NOTHING ELSE
+
+🚨 ABSOLUTE CHARACTER LIMIT: 50 MAXIMUM 🚨
+ANYTHING OVER 50 CHARACTERS = FAILURE
+
+CHARACTER COUNTING (DO THIS SILENTLY IN YOUR HEAD):
+- Count every character including spaces, emojis, punctuation
+- [NEW] = 5 characters (including space)
+- Emoji = 2 characters each
+- DO NOT SHOW YOUR COUNTING WORK
+- DO NOT DISPLAY THE COUNTING PROCESS
+- ONLY OUTPUT THE FINAL NAME
+
+COUNTING RULES:
+- Every space counts as 1 character
+- Every letter counts as 1 character  
+- Every punctuation mark counts as 1 character
+- Emojis count as 2 characters each
+
+MANDATORY VERIFICATION (DO SILENTLY):
+1. Generate your name
+2. Count every single character in your head
+3. If over 50 characters: Remove longest tag
+4. If still over 50: Remove another tag
+5. If still over 50: Shorten the name
+6. Count again silently to confirm under 50
+7. Only output the final name
+
+IT MUST BE UNDER 50 CHARACTERS:
+1. IT MUST ALWAYS BE UNDER 50 CHARACTERS! THIS IS HOW MANY CHARACTERS THAT IS 50 CHARACTERS LONG: (XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX)
+2. IT MUST ALWAYS BE UNDER 50 CHARACTERS! THIS IS HOW MANY CHARACTERS THAT IS 50 CHARACTERS LONG: (XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX)
+3. IT MUST ALWAYS BE UNDER 50 CHARACTERS! THIS IS HOW MANY CHARACTERS THAT IS 50 CHARACTERS LONG: (XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX)
+4. IT MUST ALWAYS BE UNDER 50 CHARACTERS! THIS IS HOW MANY CHARACTERS THAT IS 50 CHARACTERS LONG: (XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX)
+5. IT MUST ALWAYS BE UNDER 50 CHARACTERS! THIS IS HOW MANY CHARACTERS THAT IS 50 CHARACTERS LONG: (XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX)
+6. MAKE SURE YOU COUNT EACH LETTER UP IN YOUR MIND (EG, H = 1 HO = 2 HOU = 3 HOUS = 4 HOUSE = 5. HOUSE = 5 = ✅ AND CONTUNIE. AND IF XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX = 51 = X THATS AWFUL) (ALSO DONT SHOW YOUR COUNTING WORK)
+
+SAFE EXAMPLES (VERIFIED):
+1. [NEW] 👋 Slap Tower! Troll Obby (28 chars) ✓
+2. [NEW] 💀 John Doe! Horror RP (23 chars) ✓
+3. [NEW] ⭐ World! Fun Hangout (20 chars) ✓
+4. [NEW] 🏠 House! Classic Game (22 chars) ✓
+5. [NEW] 🪖 Base! War Combat (19 chars) ✓
+
+EMERGENCY FALLBACKS:
+If your first attempt is over 50 characters, immediately use:
+- [NEW] (EMOJI) (1-2 WORDS)! (1 TAG)
+- Example: [NEW] 🌳 Tree! Forest (18 chars)
+
+FORMAT: [NEW] (EMOJI) (GENERATED NAME)! (GENERATED TAG) (GENERATED TAG) (GENERATED TAG)
+
+${exampleLearn}
+
+CRITICAL OUTPUT INSTRUCTIONS:
+- DO NOT SHOW COUNTING WORK
+- DO NOT DISPLAY CHARACTER BREAKDOWN
+- DO NOT SHOW "Count:" OR "Result:" 
+- ONLY OUTPUT THE FINAL NAME
+- NO EXPLANATIONS, NO COUNTING DISPLAY, NO EXTRA TEXT
+
+WRONG OUTPUT EXAMPLE:
+❌ Count: [ N E W ]   😂   A e s t h e t i c  H a n g o u t !  R o l e p l a y  V i r a l
+❌ Result: 9 + 8 + 8 + 5 = 30 characters ✓
+
+CORRECT OUTPUT EXAMPLE:
+✅ [NEW] 😂 Aesthetic Hangout! Roleplay Viral
+
+After generating and silently counting, return ONLY the final name: (UNDER 50 CHARACTERS GUARANTEED)
